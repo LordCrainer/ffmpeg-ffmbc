@@ -5,6 +5,6 @@ services:
     container_name: ffmpeg-ffmbc
     image: ffmpeg-ffmbc
     volumes:
-     - /data/:/app/
+     - ~/data/lntv-data/:/app/
       # - /var/www/LNTV_PLATAFORMA/data/main/media/:/app/
     restart: unless-stopped
