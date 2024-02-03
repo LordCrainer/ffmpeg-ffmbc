@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+ ffmpeg:
+    build: ./
+    container_name: ffmpeg-ffmbc
+    image: ffmpeg-ffmbc
+    volumes:
+     - /data/:/app/
+      # - /var/www/LNTV_PLATAFORMA/data/main/media/:/app/
+    restart: unless-stopped
