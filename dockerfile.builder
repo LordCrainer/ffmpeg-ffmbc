@@ -1,5 +1,5 @@
 FROM lsiobase/ffmpeg:bin as binstage
-FROM lsiobase/ubuntu:bionic
+FROM lsiobase/ubuntu:jammy
 
 COPY --from=binstage / /
 # set version label

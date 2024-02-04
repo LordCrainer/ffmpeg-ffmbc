@@ -3,7 +3,7 @@ services:
  ffmpeg:
     build: ./
     container_name: ffmpeg-ffmbc
-    image: ffmpeg-ffmbc
+    image: ffmpeg-ffmbc:1.0.0
     volumes:
      - ~/data/lntv-data/:/app/
       # - /var/www/LNTV_PLATAFORMA/data/main/media/:/app/
